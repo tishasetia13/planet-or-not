@@ -1,0 +1,56 @@
+{
+  "best_model": "Gradient boosting",
+  "validation": {
+    "Always says false positive": {
+      "accuracy": 0.637,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.5
+    },
+    "Logistic regression": {
+      "accuracy": 0.851,
+      "precision": 0.747,
+      "recall": 0.891,
+      "f1": 0.812,
+      "auc": 0.93
+    },
+    "Gradient boosting": {
+      "accuracy": 0.939,
+      "precision": 0.919,
+      "recall": 0.912,
+      "f1": 0.916,
+      "auc": 0.985
+    }
+  },
+  "test": {
+    "accuracy": 0.936,
+    "precision": 0.919,
+    "recall": 0.911,
+    "f1": 0.915,
+    "auc": 0.981
+  },
+  "test_lazy_accuracy": 0.621,
+  "test_confusion_matrix": {
+    "true_neg": 679,
+    "false_pos": 35,
+    "false_neg": 39,
+    "true_pos": 397
+  },
+  "top_features": {
+    "koi_max_mult_ev": 0.0293,
+    "koi_prad": 0.0292,
+    "koi_dor": 0.0215,
+    "koi_max_sngle_ev": 0.0135,
+    "koi_ror": 0.0106,
+    "koi_model_snr": 0.0082,
+    "koi_smet": 0.0053,
+    "ra": 0.0035
+  },
+  "n_features": 33,
+  "rows": {
+    "train": 5305,
+    "val": 1132,
+    "test": 1150
+  }
+}
